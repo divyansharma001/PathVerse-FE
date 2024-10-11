@@ -13,8 +13,8 @@ export function HeroSection() {
       text: "pathway",
     },
     {
-        text: "for",
-      },
+      text: "for",
+    },
     {
       text: "financial growth.",
       className: "text-blue-500 dark:text-blue-500",
@@ -22,13 +22,14 @@ export function HeroSection() {
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem]  ">
-         <Spotlight
+      <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
-      A fusion of 'Path' and 'Invest
+      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base">
+        A fusion of &apos;Path&apos; and &apos;Invest&apos;
       </p>
+
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
         <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
