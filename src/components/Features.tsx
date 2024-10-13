@@ -6,7 +6,7 @@ export function Features() {
   return (
     <div className="max-w-5xl mx-auto px-8 py-12">
       <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-white">
-        Discover PathVest's Powerful Features
+        Discover PathVest&apos;s Powerful Features
       </h2>
       <HoverEffect items={features} />
     </div>
