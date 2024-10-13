@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 
 const geistSans = localFont({
@@ -31,6 +32,7 @@ export default function RootLayout({
         
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        // style={{ cursor: "url('/custom-cursor.png'), auto" }} 
       >
          <ThemeProvider
             attribute="class"
@@ -42,6 +44,8 @@ export default function RootLayout({
         <Header/>
         
         {children}
+
+        <Footer/>
 
         </ThemeProvider>
         

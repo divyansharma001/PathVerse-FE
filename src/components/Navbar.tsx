@@ -38,7 +38,7 @@ export const Header = () => {
           </div>
 
           <div className='flex items-center space-x-4'>
-            <Link href="/">
+            <Link href="/login">
               <Button variant='outline' className="font-medium hover:bg-primary hover:text-primary-foreground transition-colors">
                 Login
               </Button>
