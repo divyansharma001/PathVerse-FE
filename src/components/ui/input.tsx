@@ -1,10 +1,8 @@
-// Input component extends from shadcnui - https://ui.shadcn.com/docs/components/input
 "use client";
 import * as React from "react";
 import { cn } from "@/lib/utils";
 import { useMotionTemplate, useMotionValue, motion } from "framer-motion";
 
-// CHANGE: Removed empty interface to fix the first error
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   // You can add specific props here if needed in the future
@@ -18,7 +16,6 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     const mouseX = useMotionValue(0);
     const mouseY = useMotionValue(0);
 
-    // CHANGE: Specified types for the event and its properties to fix the second error
     function handleMouseMove({ currentTarget, clientX, clientY }: React.MouseEvent<HTMLDivElement>) {
       const { left, top } = currentTarget.getBoundingClientRect();
 
