@@ -32,7 +32,7 @@ export default function RootLayout({
         
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        // style={{ cursor: "url('/custom-cursor.png'), auto" }} 
+        
       >
          <ThemeProvider
             attribute="class"
