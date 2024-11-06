@@ -1,6 +1,6 @@
 import { AiChatbot } from "@/components/AiChatbot";
 import { Features } from "@/components/Features";
-// import { FeaturesSection } from "@/components/FeaturesSection";
+
 import { HeroSection } from "@/components/HeroSection";
 
 
@@ -10,8 +10,6 @@ export default function Home() {
       <HeroSection/>
       <Features/>
       <AiChatbot/>
-      
-      
     </div>
   );
 }
